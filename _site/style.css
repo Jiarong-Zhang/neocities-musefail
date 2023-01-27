@@ -107,3 +107,8 @@ Released under the Unlicense - https://unlicense.org/
     font-family: "PixelOperator"; 
     src: url("/fonts/PixelOperator.ttf") format("truetype");
 }
+
+#kiosk {
+  text-align: center;
+  vertical-align: middle;
+}
