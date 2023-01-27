@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+
+    - run: make
     
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
