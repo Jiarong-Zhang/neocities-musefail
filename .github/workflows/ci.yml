@@ -22,7 +22,7 @@ jobs:
     - if: ${{ success() && github.ref == 'refs/heads/main' }}
       id: deploy
       continue-on-error: true
-      uses: bcomnes/deploy-to-neocities@v1
+      uses: bcomnes/deploy-to-neocities@v1.1.15
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         dist_dir: _site
