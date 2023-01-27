@@ -28,10 +28,10 @@ jobs:
         dist_dir: _site
         cleanup: true
 
-    - name: Deploy to Neocities fallback
-      if: ${{ steps.deploy.outcome == 'failure' && github.ref == 'refs/heads/main' }}
-      uses: jonchang/deploy-neocities@master
-      with:
-        key: ${{ secrets.NEOCITIES_API_KEY }}
-        dir: _site
-        clean: true
+    #- name: Deploy to Neocities fallback
+      #if: ${{ steps.deploy.outcome == 'failure' && github.ref == 'refs/heads/main' }}
+      #uses: jonchang/deploy-neocities@master
+      #with:
+        #key: ${{ secrets.NEOCITIES_API_KEY }}
+        #dir: _site
+        #clean: true
