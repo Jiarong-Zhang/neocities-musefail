@@ -130,7 +130,8 @@ Released under the Unlicense - https://unlicense.org/
     display: block;
     width: 100%;
     transform: translateX(100%);
-    animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate
+    /*    animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate;*/
+    animation: cssmarquee 10s linear infinite alternate;
 }
 
 #marquee_content:hover {
@@ -177,7 +178,8 @@ Released under the Unlicense - https://unlicense.org/
 */
 @keyframes cssmarquee {
     to {
-        transform: translateX(0%);
+        /*        transform: translateX(0%);*/
+        transform: translateX(-50%);
     }
 }
 
