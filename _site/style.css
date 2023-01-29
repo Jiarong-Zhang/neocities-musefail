@@ -1,33 +1,33 @@
 @font-face {
-    font-family: "PixelOperator"; 
+    font-family: "PixelOperator";
     src: url("https://musefail.neocities.org/fonts/PixelOperator.ttf") format("truetype");
 }
 
 body {
-  background-color: black;
-  color: #25ef12;
-  font-family: Verdana;
-  height: 100%;
-  width: 100%;
+    background-color: black;
+    color: #25ef12;
+    font-family: Verdana;
+    height: 100%;
+    width: 100%;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
 }
 
 .div_center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 p {
-  line-height: 1.25em;
+    line-height: 1.25em;
 }
 
 /***
@@ -35,67 +35,67 @@ EZ Gallery by netfriend - https://netfriend.neocities.org/ez-gallery/
 Released under the Unlicense - https://unlicense.org/
 ***/
 
-.ezgallery.montage { 
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+.ezgallery.montage {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .ezgallery.montage img {
-  flex: auto;
-  margin: 0 5px 5px 0;
-  object-fit: contain;
-  object-position: bottom;
+    flex: auto;
+    margin: 0 5px 5px 0;
+    object-fit: contain;
+    object-position: bottom;
 }
 
-.ezgallery.horizontal { 
-  display: grid;
-  grid-gap: 5px;
-  gap: 5px;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-  grid-auto-rows: minmax(100px, auto);
+.ezgallery.horizontal {
+    display: grid;
+    grid-gap: 5px;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .ezgallery.horizontal a {
-  text-align: center;
+    text-align: center;
 }
 
 .ezgallery.horizontal img {
-  text-align: center;
-  vertical-align: middle;
-  margin: 0 5px 5px 0;
-  max-width: 100px;
-  max-height: 100px;
-  object-fit: contain;
-  object-position: bottom;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 5px 5px 0;
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+    object-position: bottom;
 }
 
 /* END ez gallery section*/
 
 /* navigation section!! */
-  #navbar {
+#navbar {
     height: 50px;
     background-color: #090909;
     /* navbar color */
     width: 100%;
-  }
+}
 
-  #navbar ul {
+#navbar ul {
     display: flex;
     padding: 0;
     margin: 0;
     list-style-type: none;
     justify-content: space-evenly;
-  }
+}
 
-  #navbar li {
-      padding-top: 10px;
-  }
+#navbar li {
+    padding-top: 10px;
+}
 
-  /* navigation links*/
-  #navbar li a {
+/* navigation links*/
+#navbar li a {
     color: #25ef12;
     /* navbar text color */
     font-weight: 100;
@@ -103,62 +103,78 @@ Released under the Unlicense - https://unlicense.org/
     /* this removes the underline */
     font-family: PixelOperator;
     font-size: 150%;
-  }
+}
 
-  /* navigation link when a link is hovered over */
-  #navbar li a:hover {
+/* navigation link when a link is hovered over */
+#navbar li a:hover {
     color: #f721b8;
     text-decoration: underline;
-  }
+}
+
 /* END navigation section */
 
 /* css marquee section*/
 
 .marquee {
-  height: 50px;
-  overflow: hidden;
-  position: relative;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
 }
+
 .marquee a {
-  font-family: PixelOperator;
-  font-size: 150%;
-  width: 50%;
-  height: 50%;
-  margin: 0;
-  text-align: left;
-  position: absolute;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  animation: cssmarquee 5s cubic-bezier(.76,.05,.86,.06) infinite alternate
+    font-family: PixelOperator;
+    font-size: 150%;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate
 }
 
 .runner:hover {
-  animation-play-state: paused;
-  color: #f721b8;
+    animation-play-state: paused;
+    color: #f721b8;
 }
 
 @-moz-keyframes cssmarquee {
- 0%   { -moz-transform: translateX(150%); }
- 100% { -moz-transform: translateX(0%); }
+    0% {
+        -moz-transform: translateX(150%);
+    }
+
+    100% {
+        -moz-transform: translateX(0%);
+    }
 }
 
 @-webkit-keyframes marquee {
- 0%   { -webkit-transform: translateX(150%); }
- 100% { -webkit-transform: translateX(0%); }
+    0% {
+        -webkit-transform: translateX(150%);
+    }
+
+    100% {
+        -webkit-transform: translateX(0%);
+    }
 }
 
 @keyframes cssmarquee {
- 0%   { 
- -moz-transform: translateX(150%); /* Firefox bug fix */
- -webkit-transform: translateX(150%); /* Firefox bug fix */
- transform: translateX(150%);     
- }
+    0% {
+        -moz-transform: translateX(150%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(150%);
+        /* Firefox bug fix */
+        transform: translateX(150%);
+    }
 
- 100% { 
- -moz-transform: translateX(0%); /* Firefox bug fix */
- -webkit-transform: translateX(0%); /* Firefox bug fix */
- transform: translateX(0%); 
- }
+    100% {
+        -moz-transform: translateX(0%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(0%);
+        /* Firefox bug fix */
+        transform: translateX(0%);
+    }
 }
 
 /* END  marquee section*/
