@@ -131,13 +131,28 @@ Released under the Unlicense - https://unlicense.org/
   color: #f721b8;
 }
 
+@-moz-keyframes cssmarquee {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(0%); }
+}
+
+@-webkit-keyframes marquee {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(0%); }
+}
+
 @keyframes cssmarquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);     
+ }
+ 
+ 100% { 
+ -moz-transform: translateX(0%); /* Firefox bug fix */
+ -webkit-transform: translateX(0%); /* Firefox bug fix */
+ transform: translateX(0%); 
+ }
 }
 
 /* END  marquee section*/
