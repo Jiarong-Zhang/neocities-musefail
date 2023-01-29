@@ -131,7 +131,7 @@ Released under the Unlicense - https://unlicense.org/
     width: 100%;
     transform: translateX(100%);
     /*    animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate;*/
-    animation: cssmarquee 10s linear infinite alternate;
+    animation: cssmarquee 10s linear infinite;
 }
 
 #marquee_content:hover {
