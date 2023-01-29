@@ -133,6 +133,11 @@ Released under the Unlicense - https://unlicense.org/
     animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate
 }
 
+#marquee_content:hover {
+    animation-play-state: paused;
+    color: #f721b8;
+}
+
 #runner p {
     font-family: PixelOperator;
     font-size: 150%;
@@ -146,11 +151,6 @@ Released under the Unlicense - https://unlicense.org/
     padding-bottom: 10px;
     */
 
-}
-
-#runner:hover {
-    animation-play-state: paused;
-    color: #f721b8;
 }
 
 /*@-moz-keyframes cssmarquee {
