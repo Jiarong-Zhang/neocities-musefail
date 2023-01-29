@@ -123,6 +123,7 @@ Released under the Unlicense - https://unlicense.org/
   height: 50%;
   margin: 0;
   text-align: left;
+  padding-top: 10px;
   animation: cssmarquee 5s linear infinite alternate;
 }
 
@@ -147,7 +148,7 @@ Released under the Unlicense - https://unlicense.org/
  -webkit-transform: translateX(100%); /* Firefox bug fix */
  transform: translateX(100%);     
  }
- 
+
  100% { 
  -moz-transform: translateX(0%); /* Firefox bug fix */
  -webkit-transform: translateX(0%); /* Firefox bug fix */
