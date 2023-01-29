@@ -115,13 +115,13 @@ Released under the Unlicense - https://unlicense.org/
 
 /* css marquee section*/
 
-.marquee {
+#marquee {
     height: 50px;
     overflow: hidden;
     position: relative;
 }
 
-.marquee a {
+#marquee a {
     font-family: PixelOperator;
     font-size: 150%;
     width: 50%;
@@ -134,7 +134,7 @@ Released under the Unlicense - https://unlicense.org/
     animation: cssmarquee 5s cubic-bezier(.76, .05, .86, .06) infinite alternate
 }
 
-.runner:hover {
+#runner:hover {
     animation-play-state: paused;
     color: #f721b8;
 }
