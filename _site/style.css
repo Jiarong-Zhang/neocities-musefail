@@ -127,7 +127,7 @@ Released under the Unlicense - https://unlicense.org/
   position: absolute;
   padding-top: 10px;
   padding-bottom: 10px;
-  animation: cssmarquee 5s linear infinite alternate;
+  animation: cssmarquee 5s cubic-bezier(.76,.05,.86,.06) infinite alternate
 }
 
 .runner:hover {
