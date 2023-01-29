@@ -112,10 +112,28 @@ Released under the Unlicense - https://unlicense.org/
     src: url("/fonts/PixelOperator.ttf") format("truetype");
 }
 
-#kiosk {
-  text-align: center;
-  vertical-align: middle;
+.marquee {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.marquee a {
+  position: absolute;
   width: 50%;
-  margin: auto;
-  border: 1px solid black;
+  height: 50%;
+  margin: 0;
+  text-align: left;
+  animation: cssmarquee 5s linear infinite alternate;
+}
+
+.runner:hover{
+            animation-play-state: paused;
+}
+@keyframes cssmarquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
