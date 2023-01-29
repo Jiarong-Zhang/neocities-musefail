@@ -135,7 +135,6 @@ Released under the Unlicense - https://unlicense.org/
 
 #marquee_content:hover {
     animation-play-state: paused;
-    color: #f721b8;
 }
 
 #runner p {
@@ -150,7 +149,10 @@ Released under the Unlicense - https://unlicense.org/
     padding-top: 10px;
     padding-bottom: 10px;
     */
+}
 
+#runner p:hover {
+    color: #f721b8;
 }
 
 /*@-moz-keyframes cssmarquee {
