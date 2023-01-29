@@ -117,7 +117,7 @@ Released under the Unlicense - https://unlicense.org/
 
 #marquee {
     height: 50px;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
 }
 
