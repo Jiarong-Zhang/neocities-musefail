@@ -126,7 +126,7 @@ Released under the Unlicense - https://unlicense.org/
     position: relative;
 }
 
-.marquee_content {
+#marquee_content {
     display: block;
     width: 100%;
     transform: translateX(100%);
