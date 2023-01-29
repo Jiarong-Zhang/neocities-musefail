@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PixelOperator"; 
-    src: url("/fonts/PixelOperator.ttf") format("truetype");
+    src: url("https://musefail.neocities.org/fonts/PixelOperator.ttf") format("truetype");
 }
 
 body {
@@ -118,12 +118,15 @@ Released under the Unlicense - https://unlicense.org/
   position: relative;
 }
 .marquee a {
-  position: absolute;
+  font-family: PixelOperator;
+  font-size: 150%;
   width: 50%;
   height: 50%;
   margin: 0;
   text-align: left;
+  position: absolute;
   padding-top: 10px;
+  padding-bottom: 10px;
   animation: cssmarquee 5s linear infinite alternate;
 }
 
