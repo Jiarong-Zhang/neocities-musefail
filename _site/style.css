@@ -1,7 +1,7 @@
-
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+@font-face {
+    font-family: "PixelOperator"; 
+    src: url("/fonts/PixelOperator.ttf") format("truetype");
+}
 
 body {
   background-color: black;
@@ -70,6 +70,8 @@ Released under the Unlicense - https://unlicense.org/
   object-position: bottom;
 }
 
+/* END ez gallery section*/
+
 /* navigation section!! */
   #navbar {
     height: 50px;
@@ -106,11 +108,9 @@ Released under the Unlicense - https://unlicense.org/
     color: #f721b8;
     text-decoration: underline;
   }
+/* END navigation section */
 
-@font-face {
-    font-family: "PixelOperator"; 
-    src: url("/fonts/PixelOperator.ttf") format("truetype");
-}
+/* css marquee section*/
 
 .marquee {
   height: 50px;
@@ -126,10 +126,11 @@ Released under the Unlicense - https://unlicense.org/
   animation: cssmarquee 5s linear infinite alternate;
 }
 
-.runner:hover{
-            animation-play-state: paused;
-            color: #f721b8;
+.runner:hover {
+  animation-play-state: paused;
+  color: #f721b8;
 }
+
 @keyframes cssmarquee {
   0% {
     transform: translateX(100%);
@@ -138,3 +139,5 @@ Released under the Unlicense - https://unlicense.org/
     transform: translateX(0%);
   }
 }
+
+/* END  marquee section*/
