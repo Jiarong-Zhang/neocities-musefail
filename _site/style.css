@@ -140,6 +140,8 @@ Released under the Unlicense - https://unlicense.org/
 
 #marquee_content:hover {
     animation-play-state: paused;
+    transform: scale(1.1);
+    transition: all ease 500ms;
 }
 
 #runner p {
