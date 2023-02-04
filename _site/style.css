@@ -112,6 +112,7 @@ Released under the Unlicense - https://unlicense.org/
     /* this removes the underline */
     font-family: PixelOperator;
     font-size: 150%;
+    display: inline-block;
 }
 
 /* navigation link when a link is hovered over */
