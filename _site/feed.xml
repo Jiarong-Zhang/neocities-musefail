@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>BLOGS - MUSEFAIL</title>
+        <description>EZ'S BLOGS</description>
+        <link>https://musefail.neocities.org/blog/link>
+        <lastBuildDate>
+            Sat, 04 Feb 2023 10:57:40 +0000
+        </lastBuildDate>
+        <ttl>6000</ttl>
+        <item>
+            <title>On Music</title>
+            <description>
+                I love music and sounds!
+            </description>
+            <link>https://musefail.neocities.org/blogs/entry_02.html</link>
+            <pubDate>
+                Sun, 08 Jan 2023 00:00:00 +1000
+            </pubDate>
+        </item>
+        <item>
+            <title>On Being Asexual</title>
+            <description>
+                Ace pride? More like ace hide!
+            </description>
+            <link>https://musefail.neocities.org/blogs/entry_01.html</link>
+            <pubDate>
+                Fri, 06 Jan 2023 00:00:00 +1000
+            </pubDate>
+        </item>
+    </channel>
+</rss>
