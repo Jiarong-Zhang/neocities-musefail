@@ -124,8 +124,7 @@
 }
 
 .photoviewer-header .photoviewer-button-close:hover {
-    color: #fff;
-    background-color: #ff4545;
+    background-color: white;
 }
 
 .photoviewer-title {
