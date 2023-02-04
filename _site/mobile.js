@@ -13,7 +13,7 @@
         marquee.style.display = "none";
         //marquee.style.textAlign = "center";
         //marquee_content.style.animation = "none";
-        footer.style.transform = "scale(0.75)";
+        footer.style.transform = "scale(0.5)";
     } else {
         //console.log("not mobile");
         pet.style.display = "block";
