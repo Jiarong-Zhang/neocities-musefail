@@ -24,7 +24,7 @@
             document.querySelector(".div_center.blog").style.width = "95%";
         }
 
-        footer.style.fontSize = "50%";
+        //footer.style.fontSize = "50%";
         //marquee.style.textAlign = "center";
         //marquee_content.style.animation = "none";
 
