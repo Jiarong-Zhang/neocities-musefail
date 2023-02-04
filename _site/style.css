@@ -31,6 +31,10 @@ body {
     padding: 10px;
 }
 
+.blog {
+    width: 45%;
+}
+
 .blog p {
     line-height: 1.25em;
 }
