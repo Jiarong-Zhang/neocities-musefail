@@ -199,6 +199,7 @@ Released under the Unlicense - https://unlicense.org/
 
 #home_links a {
     text-decoration: none;
+    display: block;
 }
 
 #home_links a:hover {
