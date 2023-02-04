@@ -14,7 +14,7 @@
         marquee.style.display = "none";
         //marquee.style.textAlign = "center";
         //marquee_content.style.animation = "none";
-        footer.style.fontSize = "75%";
+        footer.style.fontSize = "50%";
         blog.style.width = "95%";
     } else {
         //console.log("not mobile");
