@@ -204,8 +204,6 @@ Released under the Unlicense - https://unlicense.org/
 #home_links a:hover {
     color: #f721b8;
     text-decoration: underline;
-
-
     animation: shake 0.8s linear infinite;
 
 }
