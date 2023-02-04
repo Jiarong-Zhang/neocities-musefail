@@ -140,8 +140,6 @@ Released under the Unlicense - https://unlicense.org/
 
 #marquee_content:hover {
     animation-play-state: paused;
-    transform: scale(1.1);
-    transition: all ease 500ms;
 }
 
 #runner p {
@@ -201,14 +199,13 @@ Released under the Unlicense - https://unlicense.org/
 
 #home_links a {
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 #home_links a:hover {
     color: #f721b8;
     text-decoration: underline;
     animation: shake 1.25s linear infinite;
-
 }
 
 @keyframes shake {
