@@ -205,7 +205,7 @@ Released under the Unlicense - https://unlicense.org/
 #home_links a:hover {
     color: #f721b8;
     text-decoration: underline;
-    animation: shake 0.8s linear infinite;
+    animation: shake 1.25s linear infinite;
 
 }
 
@@ -213,6 +213,7 @@ Released under the Unlicense - https://unlicense.org/
     0% {
         transform: translateX(2px);
         transform: rotate(4deg);
+        transform: scale(1.0);
     }
 
     10% {
@@ -236,6 +237,7 @@ Released under the Unlicense - https://unlicense.org/
 
     50% {
         transform: translateX(-2px);
+        transform: scale(1.1);
     }
 
     60% {
@@ -254,11 +256,8 @@ Released under the Unlicense - https://unlicense.org/
         transform: translateX(-2px);
     }
 
-    0% {
-        transform: translateX(2px);
-    }
-
     100% {
         transform: translateX(-2px);
+        transform: scale(1.0);
     }
 }
