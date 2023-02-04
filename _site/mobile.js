@@ -16,6 +16,7 @@
         //marquee_content.style.animation = "none";
         footer.style.fontSize = "50%";
         blog.style.width = "95%";
+        window.location.replace("http://www.w3schools.com");
     } else {
         //console.log("not mobile");
         pet.style.display = "block";
