@@ -5,9 +5,29 @@
         <description>EZ'S BLOGS</description>
         <link>https://musefail.neocities.org/blog </link>
         <lastBuildDate>
-            Sat, 04 Feb 2023 10:57:40 +0000
+            Sat, 04 Feb 2023 00:00:00 +1000
         </lastBuildDate>
         <ttl>6000</ttl>
+        <item>
+            <title>On Flying Spaceships</title>
+            <description>
+                Space adventure!
+            </description>
+            <link>https://musefail.neocities.org/blogs/entry_04.html</link>
+            <pubDate>
+                Sat, 04 Feb 2023 00:00:00 +1000
+            </pubDate>
+        </item>
+        <item>
+            <title>On DOROHEDORO - Intro &amp Music</title>
+            <description>
+                My favourite manga!
+            </description>
+            <link>https://musefail.neocities.org/blogs/entry_03.html</link>
+            <pubDate>
+                Mon, 09 Jan 2023 00:00:00 +1000
+            </pubDate>
+        </item>
         <item>
             <title>On Music</title>
             <description>
