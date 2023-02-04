@@ -196,3 +196,13 @@ Released under the Unlicense - https://unlicense.org/
 #footer {
     width: auto;
 }
+
+#home_links a {
+    text-decoration: none;
+}
+
+#home_links a:hover {
+    color: #f721b8;
+    text-decoration: underline;
+
+}
