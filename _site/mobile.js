@@ -6,7 +6,7 @@
     var marquee = document.getElementById("marquee");
     //var marquee_content = document.getElementById("marquee_content");
     var footer = document.getElementById("footer");
-    var blog = document.querySelector(".div_center .blog");
+    var blog = document.querySelector(".div_center.blog");
 
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         // console.log("mobile");
