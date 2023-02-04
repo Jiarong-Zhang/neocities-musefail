@@ -95,6 +95,7 @@
     height: 1em;
     overflow: visible;
     vertical-align: -.125em;
+    color: #25ef12;
 }
 
 .photoviewer-header {
@@ -103,6 +104,7 @@
     height: 30px;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
+    background-color: black;
 }
 
 .photoviewer-header .photoviewer-toolbar {
@@ -186,6 +188,7 @@
     width: 100%;
     height: 40px;
     text-align: center;
+    background-color: black;
 }
 
 .photoviewer-footer .photoviewer-toolbar {
