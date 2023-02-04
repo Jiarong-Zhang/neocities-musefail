@@ -118,6 +118,7 @@ Released under the Unlicense - https://unlicense.org/
 #navbar li a:hover {
     color: #f721b8;
     text-decoration: underline;
+    animation: shake 1.25s linear infinite;
 }
 
 /* END navigation section */
