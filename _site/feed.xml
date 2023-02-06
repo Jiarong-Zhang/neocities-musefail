@@ -5,9 +5,19 @@
         <description>EZ'S BLOGS</description>
         <link>https://musefail.neocities.org/blog </link>
         <lastBuildDate>
-            Sat, 04 Feb 2023 00:00:00 +1000
+            Mon, 06 Feb 2023 16:47:08 +1030
         </lastBuildDate>
         <ttl>60</ttl>
+        <item>
+            <title>On Flying Fighters</title>
+            <description>
+                More adventure, one mishap.
+            </description>
+            <link>https://musefail.neocities.org/blogs/entry_05.html</link>
+            <pubDate>
+                Mon, 06 Feb 2023 00:00:00 +1000
+            </pubDate>
+        </item>
         <item>
             <title>On Flying Spaceships</title>
             <description>
