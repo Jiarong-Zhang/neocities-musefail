@@ -17,8 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - run: make
-
     - if: ${{ success() && github.ref == 'refs/heads/main' }}
       id: deploy
       continue-on-error: true
